@@ -1,9 +1,10 @@
 import React from 'react'
 import { assets, rose } from '../../assets/assests'
+import './navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='navbar'>
         
         <img src={assets.rose} alt='rossy'/>  
         <ul className='nav-items'>
@@ -14,9 +15,9 @@ const Navbar = () => {
             </ul>  
 
             <div className='navbar-right'>
-                <img src={assets.rose}/>
+                <img src={assets.search1} width="30px" height="30px"/>
                 <div className='navbar-cart'>
-                    <img src={assets.rose}/>
+                    <img src={assets.cart1} width="30px" height="30px"/>
                     <div className='cart-dot'>
 
                     </div>
