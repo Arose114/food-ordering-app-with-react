@@ -16,6 +16,9 @@
     font-size: 18px;
 }
 
+.nav-items:hover{
+    padding-bottom: 2px;
+}
 .navbar-right{
     display: flex;
     justify-content: space-between;
@@ -23,7 +26,23 @@
     gap: 20px;
     cursor: pointer;
 }
+.nav-items .active{
+    border-bottom: 2px solid thistle;
+}
 
+.navbar-cart{
+    position: relative;
+}
+
+.cart-dot{
+    position: absolute;
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 50%;
+    top: -8px;
+    right: -8px;
+
+}
 .navbar-button{
     border: 1px solid gray;
     border-radius: 50px;
