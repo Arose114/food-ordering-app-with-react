@@ -1,11 +1,13 @@
 .header{
-    height: 70vh;
+    height: 50vh;
     width:1025px;
     margin: 30px auto;
     background-image: url('/public/bg-food1.jpg');
     background-repeat: no-repeat;
     background-size:contain;
     position: relative;
+    border: none;
+    border-radius: 10px;
     
 }
 .header-content{
